@@ -1,4 +1,7 @@
 import type { NextConfig } from 'next'
+import { baseUrl } from './config/env.config'
+
+console.log(baseUrl)
 
 const config: NextConfig = {
   env: {
